@@ -13,7 +13,9 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/statsbomb/statsbombpy",
     author="StatsBomb",
+    helper="EsmailTrabulsi"
     author_email="support@statsbombservices.com",
+    Helper_email="etrabuls@students.kennesaw.edu"
     packages=["statsbombpy"],
     install_requires=[
         "pandas",
