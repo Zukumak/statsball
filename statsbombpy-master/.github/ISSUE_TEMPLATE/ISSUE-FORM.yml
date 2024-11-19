@@ -29,7 +29,7 @@ body:
   - type: dropdown
     id: os
     attributes:
-      label: What platform are you seeing the problem on?
+      label: What platform are you seeing the problem on? Be specific so we can fix the problem.
       multiple: true
       options:
         - Windows
@@ -40,14 +40,14 @@ body:
   - type: textarea
     id: environment
     attributes:
-      label: What Python version are you running, are you using a virtual environment? Give us as much info as you can.
+      label: What Python version are you running, are you using a virtual environment? Give us as much info as you can. Are you getting this off github?
       placeholder: e.g. Python 3.8, using `poetry` for dependency management
     validations:
       required: true
   - type: textarea
     id: what-happened
     attributes:
-      label: What happened?
+      label: What was wrong with Esmail soccer Stats?
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
     validations:
